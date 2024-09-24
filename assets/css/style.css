@@ -1,0 +1,316 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+.Navbar{
+
+       width: 100%;
+}
+
+.Navbar .navbar{
+    background-color:black!important;
+    height: 80px;
+}
+
+.Navbar .navbar .navbar-brand{
+    color:white;
+    font-size: 30px;
+}
+
+.Navbar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+
+    color: white;
+    font-size: 20px;
+
+ }
+
+ .Slider_are .carousel-inner {
+    width: 100%;
+    height: 750px;
+
+ }
+
+ .Slider_are .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+
+ }
+
+ /* Service Area Start */
+
+ .Services_area .container .Text-area .text h2{
+    
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+ }
+
+ .Services_area .container .Text-area .text-Sub{
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    color: #afb7b7;
+ }
+
+ .Services_area .container .row .main-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(248, 209, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    font-size: 40px;
+    
+}
+
+.Services_area .container .row .head-area .head-text {
+    text-align: center;
+}
+
+ /* Service Area End */
+
+
+ /* Portfolio Area Start*/
+ .Portfolio .container .row .h_Text{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    
+ }
+
+ .Portfolio .container .row  .sub_text{
+    text-align: center;
+    font-style: italic;
+ }
+
+ .Portfolio .container .row .col-md-4 .card .Card-area{
+    width: 100%;
+    
+ }
+
+ .Portfolio .container .row .col-md-4 .card .Card-area .Images{
+    width: 100%;
+    height: 300px;
+
+ }
+
+ .Portfolio .container .row .col-md-4 .card  .text .text-s {
+    font-size: 40px;
+  
+    
+ }
+
+ .Portfolio .container .row .col-md-4 .card  .text .View_button{
+
+    background-color:#ffc800;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    
+ }
+ .Portfolio .container .row .col-md-4 .card  .text .View_button:hover{
+   background-color:  #cca000;
+ }
+/* Portfolio Area End*/
+
+/* About Area Start*/
+.About-area{
+   background-color: #f7ffff;
+}
+.About-area .container .H-text .text{
+
+   text-align: center;
+   font-size: 35px;
+   text-transform: uppercase;
+   font-style: italic;
+   font-weight: bold;
+   letter-spacing: 15px;
+}
+
+.About-area .container .sub_text .text{
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+}
+
+.About-area .container .row .Main .text-area  {
+ font-weight: bold;
+color: black;
+text-align: right;
+margin: 10px;
+}
+
+.About-area .container .row .Main .text-area .text_pear{
+   font-weight: normal;
+   font-size: 19px;
+}
+
+.About-area .container .row .imag-area  {
+   width: 100%;  
+}
+
+.About-area .container .row .imag-area .image .imagess{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+  border: 5px solid rgb(230, 224, 224);
+}
+
+
+
+.About-area .container .row .Main .text-area-1  {
+   font-weight: bold;
+  color: black;
+  text-align: left;
+  margin: 10px;
+  }
+
+  
+.About-area .container .row .Main .text-area-1 .text_pear-1{
+   font-weight: normal;
+   font-size: 19px;
+}
+
+/* About Area End*/
+
+/* Team Area Start */
+.team-area .container .H-text .text{
+   font-weight: bold;
+   text-align: center;
+   font-style: italic;
+   text-transform: uppercase;
+   word-spacing: 15px;
+}
+
+.team-area .container .text-Sub .text{
+   text-align: center;
+   color: #afb7b7;
+   font-style: italic;
+   word-spacing: 7px;
+   font-size: 18px;
+}
+
+.team-area .container .row .image-area {
+   width: 100%;
+}
+
+
+.team-area .container .row .image-area .images{
+   width: 400ppx;
+   height: 300px;
+   border-radius: 22%;
+   border: 2px solid rgb(194, 174, 174);
+}
+
+
+.team-area .container .row .image-area{
+ 
+   justify-content: center;
+ 
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+
+   
+}
+
+.team-area .container .row .image-area .Name_Text{
+   left: 40px;
+   text-transform: uppercase;
+   font-style: italic;
+
+}
+
+.team-area .container .row .Logo_S .logo_ul .Logo_area {
+   list-style: none;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: rgb(236, 236, 236);
+}
+
+.team-area .container .row .Logo_S {
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+}
+
+.team-area .container .row .Logo_S .logo_ul .Logo_area .bi {
+   top: -20;
+   font-size: 30px;
+}
+
+.team-area .container .row .Logo_S .logo_ul .Logo_area .bi:hover{
+  color: orange;
+}
+
+.team-area .container .text-area-button .text{
+   text-align: center;
+   margin: auto;
+   font-weight: bold;
+   font-style: italic;
+   
+}
+
+.Contact-area   .text-area .text{
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.Contact-area  .text-area .sub_text{
+   text-align: center;
+   font-style: italic;
+   color: #afb7b7;
+
+}
+
+.button  {
+   
+   margin: auto;
+   justify-content: center;
+   text-align: center;
+}
+.button .btn{
+   width: 200px;
+   height: 50px;
+   background-color: orange;
+}
+
+.button .btn:hover{
+   background-color: #fcc500;
+}
+
+/* Team Area End*/
+
+.product-area .container .row .product .text a{
+   text-decoration: none;
+   color: white;
+}
+
+.product-area .container .row .product .text a:hover{
+   color: rgb(145, 154, 145);
+}
+
+.product-area  {
+   background-color: black;
+}
+
+.product-area .container .row .product{
+   justify-content: center;
+   margin: auto;
+}
